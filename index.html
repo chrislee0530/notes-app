@@ -4,19 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick Notes</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Notes Bank</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <h1>Elegant Notes</h1>
-            <p>Quickly jot down your ideas in style</p>
+            <h1>Notes Bank</h1>
+            <p>Quickly store your thoughts..."Caching!"</p>
         </header>
+
+
+        <div class="controls">
+            <div class="controls-container">
+                <input type="text" id="searchInput" placeholder="Search notes" class="search-input">
+                <div class="filter-group">
+                    <select id="filterSelect" class="filter-select">
+                        <option value="all">All notes</option>
+                        <option value="work">Work</option>
+                        <option value="personal">Personal</option>
+                        <option value="ideas">Ideas</option>
+                        <option value="reminder">Reminders</option>
+                    </select>
+                    <button id="addNoteBtn" class="add-btn">
+                        <i class="fas fa-plus"></i> Add
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+
     </div>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
