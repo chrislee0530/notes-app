@@ -3,4 +3,4 @@ An interactive notes app designed to quickly write down and manage your thoughts
 
 The web is built with HTML, CSS, and JavaScript.
 
-Click here for [Live Demo] (https://chrislee0530.github.io/notes-app/)👈
+Click here for [Live Demo] (https://chrislee0530.github.io/notes-app/) 👈
